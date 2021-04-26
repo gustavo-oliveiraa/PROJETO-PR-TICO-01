@@ -6,7 +6,7 @@
 #include<locale.h>//Biblioteca para uso de acentuação dentro do printf. 
 int main(){
     setlocale(LC_ALL, "Portuguese");//Direciona a biblioteca ao idioma que vai ser usado pelo <locale.h>.
-    printf("----------------------------------------Bem vindo ao melhor cinema de Brasília!-----------------------------------------\n");//Comando que printa na tela o que foi escrito dentro dos parênteses, para o usuário.
+    printf("----------------------------------------Bem vindo ao melhor cinema de Brasília!-----------------------------------------");//Comando que printa na tela o que foi escrito dentro dos parênteses, para o usuário.
     int qtdSessoes, qtdPessoasAssistiram, idade, contador;//Comando para declarar as variáveis e armazenar no espaço da memória, do tipo inteiro. 
     int criancas=0, adolescentes=0, adultos=0, idosos=0, mulheres=0, homens=0, homensIdade=0, mulheresIdade=0;//Comando para declarar as variáveis e armazenar no espaço da memória, do tipo inteiro.
     char nomeFilme[50], sexo;//Comando para declarar as variáveis e armazenar no espaço da memória, do tipo caractere.
